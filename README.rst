@@ -38,6 +38,33 @@ A Glance:
     >>> url = 'http://fox13now.com/2013/12/30/new-year-new-laws-obamacare-pot-guns-and-drones/'
     >>> article = Article(url)
 
+With Cookies:
+-------------
+.. code-block:: pycon
+
+    >>> from newspaper import Article
+
+    >>> url = 'http://fox13now.com/2013/12/30/new-year-new-laws-obamacare-pot-guns-and-drones/'
+    >>> # cookies.json should be editthiscookie chrome extension export output
+    >>> article = Article(url, cookies_file='cookies.json')
+
+.. code-block:: pycon
+
+    >>> from newspaper import Article
+
+    >>> url = 'http://fox13now.com/2013/12/30/new-year-new-laws-obamacare-pot-guns-and-drones/'
+    >>> cookies="""<editthiscookie export value>"""
+    >>> article = Article(url, cookies=cookies)
+
+With Cookies:
+-------------
+.. code-block:: pycon
+
+    >>> from newspaper import Article
+
+    >>> url = 'http://fox13now.com/2013/12/30/new-year-new-laws-obamacare-pot-guns-and-drones/'
+    >>> article = Article(url)
+
 .. code-block:: pycon
 
     >>> article.download()
