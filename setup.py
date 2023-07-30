@@ -17,6 +17,7 @@ except ImportError:
 
 packages = [
     'newspaper_with_cookies',
+    'newspaper_with_cookies.videos'
 ]
 
 
@@ -52,7 +53,7 @@ setup(
     long_description=readme,
     author='Lucas Ou-Yang',
     author_email='lucasyangpersonal@gmail.com',
-    url='https://github.com/codelucas/newspaper/',
+    url='https://github.com/AzachE/newspaper_with_cookies',
     packages=packages,
     include_package_data=True,
     install_requires=required,
