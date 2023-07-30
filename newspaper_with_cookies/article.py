@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-__title__ = 'newspaper'
+__title__ = 'newspaper_with_cookies'
 __author__ = 'Lucas Ou-Yang'
 __license__ = 'MIT'
 __copyright__ = 'Copyright 2014, Lucas Ou-Yang'
